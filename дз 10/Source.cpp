@@ -24,7 +24,7 @@ int main() {
         string guess;
         cout << "¬ведите букву или попробуйте угадать слово целиком: ";
         cin >> guess;
-
+        //commit
         if (guess.length() == 1) {
             char letter = tolower(guess[0]);
 
